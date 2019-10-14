@@ -14,11 +14,11 @@ int main(void)
 	}
 	if(u==1)
 	{
-	printf("ª•÷ \n");
+	printf("The two numbers are mutually prime.\n");
 	}
 	else
 	{	
-	printf("≤ªª•÷ \n");
+	printf("The two numbers are not mutually prime.\n");
 	}
 	return 0;
 }

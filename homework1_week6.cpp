@@ -2,9 +2,9 @@
 int main(void)
 {
 	int u,v,w,x;
-	printf("number1= ",&u);
+	printf("number1= ");
 	scanf("%d",&u);
-	printf("number2= ",&v);
+	printf("number2= ");
 	scanf("%d",&v);
 	w=u;
 	x=v;
@@ -16,6 +16,6 @@ int main(void)
 	}
 	int y;
 	y=w*x/u;
-	printf ("最小公倍数为%d",y);
+	printf ("the least common multiple is %d",y);
 }
  
