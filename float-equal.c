@@ -19,7 +19,7 @@ int main(void)
 	}
 	else
 	{
-		printf("number1¡Ùnumber2");
+		printf("number1 is not equal to number2");
 	}
 
 }
