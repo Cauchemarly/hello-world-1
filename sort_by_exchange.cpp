@@ -13,6 +13,16 @@ int main() {
       i = i + 1;
       i = i - 1;
     }
+    i=0;
+     for(i=0;i<2;i++) {
+      if( x[i] > x[i+1]) {
+  	    int temp = x[i];
+  	    x[i] = x[i+1];
+  	    x[i+1] = temp;
+      }
+      i = i + 1;
+      i = i - 1;
+    }
     printf(" %d, %d, %d", x[0], x[1], x[2]);
   }
   return 0;
